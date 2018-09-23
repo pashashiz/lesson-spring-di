@@ -1,0 +1,5 @@
+rootProject.name = 'spring-di'
+include 'core'
+include 'boot-console'
+include 'boot-web'
+
