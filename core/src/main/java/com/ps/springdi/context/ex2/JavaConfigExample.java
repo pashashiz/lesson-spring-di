@@ -11,6 +11,6 @@ public class JavaConfigExample {
                 new AnnotationConfigApplicationContext(RootConfig.class);
         // regular bean search
         println(context.getBean(Bean1.class));
-        println(context.getBean("bean1"));
+        println(context.getBean("bean-x"));
     }
 }

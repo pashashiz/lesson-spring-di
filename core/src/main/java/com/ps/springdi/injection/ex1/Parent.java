@@ -8,7 +8,7 @@ public class Parent {
 
     private final Child child;
 
-    @Autowired
+//    @Autowired
     public Parent(Child child) {
         this.child = child;
     }

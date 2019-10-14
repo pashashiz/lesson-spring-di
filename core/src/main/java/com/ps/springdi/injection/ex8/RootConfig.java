@@ -13,12 +13,13 @@ public class RootConfig {
     }
 
     @Bean
+    @Qualifier("xxx")
     public Child bob() {
-        return new Bill();
+        return new Bob();
     }
 
     @Bean
-    public Parent parent(@Qualifier("bill") Child child) {
+    public Parent parent(@Qualifier("xxx") Child child) {
         return new Parent(child);
     }
 }

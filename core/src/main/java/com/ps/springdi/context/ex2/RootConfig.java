@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RootConfig {
 
-    @Bean
+    @Bean("bean-x")
     public Bean1 bean1() {
         return new Bean1();
     }
